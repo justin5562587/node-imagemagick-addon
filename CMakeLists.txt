@@ -17,6 +17,8 @@ set(CMAKE_PREFIX_PATH /Users/justin/lib_source/ImageMagick-7.0.10)
 
 find_path(IMAGEMAGICK_INCLUDE_DIR ImageMagick-7)
 find_library(IMAGEMAGICK_LIBRARIES Magick++-7.Q16HDRI)
+message(STATUS ${IMAGEMAGICK_INCLUDE_DIR})
+message(STATUS ${IMAGEMAGICK_LIBRARIES})
 
 add_library(j_image_addon ${MAIN_SRC})
 
