@@ -5,6 +5,5 @@
 
 #include <node-addon-api/napi.h>
 
-
 using namespace v8;
 using namespace node;
